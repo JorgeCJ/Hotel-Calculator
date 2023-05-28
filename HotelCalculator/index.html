@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hotel Calculator</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="shortcut icon" type="image" href="./assets/img/favicon.png" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="assets/js/index.js" defer></script>
+</head>
+
+<body>
+  <audio src="/assets/song/Hotel California.mp3" autoplay="true" loop></audio>
+
+  <section class="styles container">
+    <h1>Hotel Calculator</h1>
+    <div class="information">
+      <div class="tips">
+        <h2>Tips:</h2>
+        <p>If you want to do, for example, 4 to the power of 2, do 4**2.</p>
+        <p>If you want to do, for example, the square root of 4, do 4**(1/2).</p>
+      </div>
+      <table class="styles calculator">
+        <tr>
+          <td colspan="4"><input type="text" class="display"></td>
+        </tr>
+
+        <tr>
+          <td><button class="btn clear">C</button></td>
+          <td><button class="btn parenthesesL">(</button></td>
+          <td><button class="btn parenthesesR">)</button></td>
+          <td><button class="btn divide">/</button></td>
+        </tr>
+
+        <tr>
+          <td><button class="btn seven">7</button></td>
+          <td><button class="btn eight">8</button></td>
+          <td><button class="btn nine">9</button></td>
+          <td><button class="btn multiply">*</button></td>
+        </tr>
+
+        <tr>
+          <td><button class="btn four">4</button></td>
+          <td><button class="btn five">5</button></td>
+          <td><button class="btn six">6</button></td>
+          <td><button class="btn plus">+</button></td>
+        </tr>
+
+        <tr>
+          <td><button class="btn one">1</button></td>
+          <td><button class="btn two">2</button></td>
+          <td><button class="btn three">3</button></td>
+          <td><button class="btn minus">-</button></td>
+        </tr>
+
+        <tr>
+          <td><button class="btn point">.</button></td>
+          <td><button class="btn zero">0</button></td>
+          <td><button class="btn del">&laquo;</button></td>
+          <td><button class="btn equal">=</button></td>
+        </tr>
+      </table>
+    </div>
+  </section>
+</body>
+
+</html>

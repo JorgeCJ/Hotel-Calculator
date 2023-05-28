@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Great+Vibes&family=Open+Sans:wght@300&display=swap');
+
+:root{
+  --linearGradient:linear-gradient(orange 0%,yellow 100%);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.styles{
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.tips{
+  border: 2px solid black;
+  width:210px;
+  height:334px;
+  font-size: 0.8em;
+  background-color:white;
+}
+
+.information{
+  display:inline-flex;
+  flex-direction: row-reverse;
+  justify-content:center;
+  align-items:center;
+}
+
+p,h2{
+  font-family: 'Great Vibes', cursive;
+  font-size:28px;
+}
+
+h1{
+  align-items:center;
+  padding-left:110px;
+  font-family:'Bungee Shade', cursive;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('../img/backgroundCalifornia.jpeg');
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  background: url('../img/backgroundCalifornia2.png');
+}
+
+.calculator {
+  width: 400px;
+  margin-left:-10px;
+}
+
+.display {
+  font-size: 2em;
+  width: 100%;
+  text-align: right;
+  background: var(--linearGradient);
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  font-size: 1em;
+  border: none;
+  background: var(--linearGradient);
+  cursor: pointer;
+  border:2px solid black;
+  border-radius:5px;
+}
+
+.btn:hover {
+  background: linear-gradient(purple 0%,red 100%);
+}
